@@ -1,4 +1,4 @@
-# lidar_cloud_to_image
+# 3D-LiDAR-to-Image
 Conversion from 3D LiDAR pointcloud to images
 ![Group](doc/images/group.gif)
 
