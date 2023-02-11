@@ -63,7 +63,7 @@ int main(int argc, char* argv[])
 	  PCL_ERROR ("Couldn't read pcd file \n");
 	  return (-1);
 	}
-	const pcl::PointCloud<pcl::PointXYZIR>::ConstPtr cloud_ptr2(&(*cloud2), &DoNotFree< pcl::PointCloud<pcl::PointXYZIR> >);
+
 
 	//creates a new cloud projection for HDL-64
 	CloudProjection proj3(*proj_params["HDL-64"]);
